@@ -4,5 +4,9 @@
     "vuepress-plugin-permalink-pinyin": "^1.0.0",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-theme-simple": "^0.7.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   }
 }
