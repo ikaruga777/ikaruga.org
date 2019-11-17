@@ -2,7 +2,7 @@ path = require('path')
 
 module.exports = {
   title: 'ikaruga.org',
-  description: '普段の',
+  description: 'ikaruga.org',
   dest: path.resolve(__dirname, '../../dist'),
   evergreen: true,
   locales: {
