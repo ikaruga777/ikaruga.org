@@ -1,7 +1,7 @@
 path = require('path')
 
 module.exports = {
-  title: 'Re:醤油の一升瓶じゃあ戦えない',
+  title: 'ikaruga.org',
   description: '普段の',
   dest: path.resolve(__dirname, '../../dist'),
   evergreen: true,
@@ -12,7 +12,9 @@ module.exports = {
   themeConfig: {
     author: 'ikaruga',
     navbar: {
-      YOUR_SITE_NAME: 'https://ikaruga.org',
+      "GitHub": 'https://github.com/ikaruga777',
+      "twitter": "https://twitter.com/UVB_76",
+      "flickr": "https://www.flickr.com/photos/uvb_76/",
     }
   }
 }
