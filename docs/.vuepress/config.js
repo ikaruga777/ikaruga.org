@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     author: 'ikaruga',
     navbar: {
-      YOUR_SITE_NAME: 'https://ikaruga.org',            
-    }    
+      YOUR_SITE_NAME: 'https://ikaruga.org',
+    }
   }
 }
