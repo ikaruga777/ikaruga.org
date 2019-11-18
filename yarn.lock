@@ -886,6 +886,11 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
+"@vuepress/plugin-google-analytics@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.2.0.tgz#54555fd14f01a032c5acff04ecbbe0911577d7d0"
+  integrity sha512-0zol5D4Efb5GKel7ADO/s65MLtKSLnOEGkeWzuipkWomSQPzP7TJ3+/RcYBnGdyBFHd1BSpTUHGK0b/IGwM3UA==
+
 "@vuepress/plugin-last-updated@^1.0.0-alpha.0", "@vuepress/plugin-last-updated@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-last-updated/-/plugin-last-updated-1.2.0.tgz#7b34065b793848b0482a222b7a6f1b7df3668cdc"
@@ -7146,10 +7151,9 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-theme-simple@^0.7.0:
+"vuepress-theme-simple@git+https://github.com/ikaruga777/vuepress-theme-simple.git":
   version "0.7.0"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-simple/-/vuepress-theme-simple-0.7.0.tgz#a9fbd51f4128c53ef61b1b6d7b6561b8ea105e50"
-  integrity sha512-2NT6VKK6Djwew69wCc3PW31JmNdSG3wHz7Kkwkw178kVoTxs4KBXNUVedYsWA9glNJXOCGr95FLM8NYqaXvuQQ==
+  resolved "git+https://github.com/ikaruga777/vuepress-theme-simple.git#3f4cb5d246fb24469f43688c1327d9afe9ff1bf1"
   dependencies:
     "@vuepress/plugin-last-updated" "^1.0.0-alpha.0"
     prismjs "^1.15.0"
