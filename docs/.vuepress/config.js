@@ -13,8 +13,8 @@ module.exports = {
     author: 'ikaruga',
     navbar: {
       "GitHub": 'https://github.com/ikaruga777',
-      "twitter": "https://twitter.com/UVB_76",
-      "flickr": "https://www.flickr.com/photos/uvb_76/",
+      "Twitter": "https://twitter.com/UVB_76",
+      "Flickr": "https://www.flickr.com/photos/uvb_76/",
     }
   }
 }
