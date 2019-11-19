@@ -23,6 +23,11 @@ module.exports = {
       {
         'ga': 'UA-152792685-1'
       }
-    ]
+    ],
+    [
+      'feed', {
+        canonical_base: 'https://ikaruga.org'
+      }
+    ],
   ]
 }
