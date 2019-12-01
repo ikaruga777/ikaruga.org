@@ -34,7 +34,11 @@ module.exports = {
     ],
   ],
   markdown: {
-    config: md => {
+    plugins: {
+      'markdown-it-fontawesome': {
+      }
+    },
+    extendMarkdown: md => {
       md.use(require('markdown-it-fontawesome'))
     }
   }
