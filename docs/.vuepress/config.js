@@ -29,5 +29,14 @@ module.exports = {
         canonical_base: 'https://ikaruga.org'
       }
     ],
-  ]
+  ],
+  markdown: {
+    plugins: {
+      'markdown-it-fontawesome': {
+      }
+    },
+    extendMarkdown: md => {
+      md.use(require('markdown-it-fontawesome'))
+    }
+  }
 }
