@@ -32,5 +32,10 @@ module.exports = {
         canonical_base: 'https://ikaruga.org'
       }
     ],
-  ]
+  ],
+  markdown: {
+    config: md => {
+      md.use(require('markdown-it-fontawesome'))
+    }
+  }
 }
