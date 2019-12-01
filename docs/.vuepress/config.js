@@ -17,6 +17,9 @@ module.exports = {
       "Flickr": "https://www.flickr.com/photos/uvb_76/",
     }
   },
+  head: [
+    ['script', { src: 'https://kit.fontawesome.com/b829815f0b.js', crossorigin: 'anonymous' }]
+  ],
   plugins: [
     [
       '@vuepress/google-analytics',
