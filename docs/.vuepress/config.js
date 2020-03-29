@@ -6,7 +6,7 @@ module.exports = {
   dest: path.resolve(__dirname, '../../dist'),
   evergreen: true,
   locales: {
-    '/': { lang: 'ja' },
+    '/': { lang: 'ja-JP' },
   },
   theme: 'simple',
   themeConfig: {
