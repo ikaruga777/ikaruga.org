@@ -29,6 +29,11 @@ module.exports = {
         canonical_base: 'https://ikaruga.org'
       }
     ],
+    [
+      'seo', {
+          
+      }
+    ],
   ],
   markdown: {
     plugins: {
