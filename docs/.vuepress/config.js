@@ -2,7 +2,7 @@ path = require('path')
 
 module.exports = {
   title: 'ikaruga.org',
-  description: 'ikaruga.org',
+  description: 'だぶんをつらねます',
   dest: path.resolve(__dirname, '../../dist'),
   evergreen: true,
   locales: {
@@ -32,7 +32,7 @@ module.exports = {
     [
       'seo', {
         siteTitle: (_, $site) => $site.title,
-        title: ($page, $site) => $site.title && $page.title,
+        title: ($page, $site) => $page.title || $site.title,
         description: $page => $page.frontmatter.description,
         author: (_, $site) => $site.themeConfig.author,
         tags: $page => $page.frontmatter.tags,
