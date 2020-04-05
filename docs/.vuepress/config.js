@@ -32,7 +32,7 @@ module.exports = {
     [
       'seo', {
         siteTitle: (_, $site) => $site.title,
-        title: $page => $page.title && $site.title,
+        title: ($page, $site) => $site.title && $page.title,
         description: $page => $page.frontmatter.description,
         author: (_, $site) => $site.themeConfig.author,
         tags: $page => $page.frontmatter.tags,
