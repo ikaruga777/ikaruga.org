@@ -6,6 +6,7 @@
     "vuepress": "^1.4.0",
     "vuepress-plugin-feed": "^0.1.8",
     "vuepress-plugin-permalink-pinyin": "^1.0.0",
+    "vuepress-plugin-seo": "^0.1.2",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-theme-simple": "git+https://github.com/ikaruga777/vuepress-theme-simple.git"
   },
