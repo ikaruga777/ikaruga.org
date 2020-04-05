@@ -11,7 +11,7 @@ module.exports = {
   theme: 'simple',
   themeConfig: {
     author: 'ikaruga',
-    domain: 'ikaruga.org',
+    domain: 'https://ikaruga.org',
     navbar: {
       "GitHub": 'https://github.com/ikaruga777',
       "Twitter": "https://twitter.com/UVB_76",
