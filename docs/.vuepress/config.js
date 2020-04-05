@@ -8,6 +8,9 @@ module.exports = {
   locales: {
     '/': { lang: 'ja-JP' },
   },
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap' }]
+  ],
   theme: 'simple',
   themeConfig: {
     author: 'ikaruga',
