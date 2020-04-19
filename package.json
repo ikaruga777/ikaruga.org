@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
+    "@vuepress/plugin-blog": "^1.9.2",
     "@vuepress/plugin-google-analytics": "^1.4.0",
     "markdown-it-fontawesome": "^0.3.0",
     "vuepress": "^1.4.0",
