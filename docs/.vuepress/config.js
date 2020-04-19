@@ -11,7 +11,7 @@ module.exports = {
   head: [
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap' }]
   ],
-  theme: 'simple',
+
   themeConfig: {
     author: 'ikaruga',
     domain: 'https://ikaruga.org',
@@ -22,6 +22,21 @@ module.exports = {
     }
   },
   plugins: [
+    [
+      '@vuepress/blog',
+      {
+        directories: [
+          {
+            id: 'post',
+            dirname: '_posts',
+            path: '/',
+            pagination: {
+              lengthPerPage: 3,
+            },
+          }
+        ]
+      }
+    ],
     [
       '@vuepress/google-analytics',
       {
