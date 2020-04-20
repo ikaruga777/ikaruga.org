@@ -1,36 +1,45 @@
 <template>
-  <div class="theme-container vuepress-theme-simple">
-    <header class="header">
-      <router-link
-        to="/"
-        :title="$description"
-        class="site-name"
+  <div>
+    <li v-for="page of this.$pagination.pages"
+        :key="page.key"
+        class="list-item"
       >
-        {{ $site.title }}
-      </router-link>
-      <div style="clear: both" />
-      <nav-bar />
-    </header>
-    <home-page />
-    <footer-bar />
+        <router-link
+          :to="page.path"
+          class="item-title"
+        >
+          {{ page.title }} {{ page.id }}
+        </router-link>
+      <br>
+    </li>
+    <router-link v-if=hasPrev :to=prevLink>prev</router-link>
+
+  <router-link v-if=hasNext :to=nextLink>next</router-link>
   </div>
 </template>
-
 <script>
-import HomePage from "../components/Home";
-import FooterBar from '../components/FooterBar';
-import NavBar from '../components/NavBar';
-
 export default {
-  components: {
-    HomePage,
-    FooterBar,
-    NavBar,
-  },
+
   computed: {
-    isHome() {
-      return this.$page.path === '/';
+    filteredList() {
+      // Order by publish date, desc
+      if (this.$pagination === null) {
+        return []
+      }
+      return this.$pagination.pages
+    },
+    nextLink() {
+      return this.$pagination.nextLink
+    },
+    hasNext() {
+      return this.$pagination.hasNext
+    },
+    prevLink() {
+      return this.$pagination.prevLink
+    },
+    hasPrev() {
+      return this.$pagination.hasPrev
     }
   }
-};
+}
 </script>

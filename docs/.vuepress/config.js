@@ -11,7 +11,6 @@ module.exports = {
   head: [
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap' }]
   ],
-
   themeConfig: {
     author: 'ikaruga',
     domain: 'https://ikaruga.org',
