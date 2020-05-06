@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import TimeAgo from './TimeAgo';
+import TimeAgo from '../components/TimeAgo';
 
 export default {
   components: {
