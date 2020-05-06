@@ -27,7 +27,7 @@ module.exports = {
       {
         directories: [
           {
-            id: 'Index',
+            id: 'post',
             dirname: '_posts',
             path: '/',
             layout: 'PostList',
