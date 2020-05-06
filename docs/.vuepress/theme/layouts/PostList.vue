@@ -1,5 +1,9 @@
 <template>
-  <div class="list-view">
+  <div
+    class="list-view"
+    v-on:keyup.right="transitionNextPage"
+    v-on:keyup.left="transitionPrevPage"
+    >
     <div
       v-if="filteredList.length === 0"
       class="empty-list"
@@ -60,6 +64,27 @@ export default {
     },
     hasPrev() {
       return this.$pagination.hasPrev
+    }
+  },
+  mounted: function(){
+    document.addEventListener('keydown', this.transitionPage, false);
+  },
+  beforeDestroy: function() {
+    document.removeEventListener('keydown', this.transitionPage, false);
+  },
+  methods: {
+    transitionPage(e){
+      if (e.code === "ArrowRight") {
+        this.transitionNextPage()
+      }else if(e.code === "ArrowLeft") {
+        this.transitionPrevPage()
+      }
+    },
+    transitionNextPage() {
+      this.$router.push( {path: this.nextLink }).catch(err => {})
+    },
+    transitionPrevPage() {
+      this.$router.push( {path: this.prevLink }).catch(err => {})
     }
   }
 }
