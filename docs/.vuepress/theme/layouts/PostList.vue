@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import TimeAgo from './TimeAgo';
+import TimeAgo from '../components/TimeAgo';
 
 export default {
   components: {
@@ -46,9 +46,6 @@ export default {
         return []
       }
       return this.$pagination.pages
-        .sort((a, b) => {
-          return new Date(b.frontmatter.date || b.lastUpdated) - new Date(a.frontmatter.date || a.lastUpdated)
-        })
     },
     nextLink() {
       return this.$pagination.nextLink
