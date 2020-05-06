@@ -27,9 +27,11 @@ module.exports = {
       {
         directories: [
           {
-            id: 'post',
+            id: 'Index',
             dirname: '_posts',
             path: '/',
+            layout: 'PostList',
+            itemLayout: 'Post',
             pagination: {
               lengthPerPage: 3,
             },
