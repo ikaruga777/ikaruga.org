@@ -1,9 +1,5 @@
 <template>
-  <div
-    class="list-view"
-    v-on:keyup.right="transitionNextPage"
-    v-on:keyup.left="transitionPrevPage"
-    >
+  <div class="list-view">
     <div
       v-if="filteredList.length === 0"
       class="empty-list"
