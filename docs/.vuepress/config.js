@@ -33,7 +33,7 @@ module.exports = {
             layout: 'PostList',
             itemLayout: 'Post',
             pagination: {
-              lengthPerPage: 3,
+              lengthPerPage: 6,
             },
           }
         ]

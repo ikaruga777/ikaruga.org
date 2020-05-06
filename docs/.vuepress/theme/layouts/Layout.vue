@@ -1,12 +1,3 @@
 <template>
-  <post-list />
+  <Content/>
 </template>
-<script>
-import PostList from './PostList';
-
-export default {
-  components: {
-    PostList
-  }
-}
-</script>
