@@ -26,9 +26,11 @@
         />
       </li>
     </ol>
-  <router-link v-if=hasPrev :to=prevLink>prev</router-link>
+    <div>
+      <router-link v-if=hasPrev :to=prevLink>prev</router-link>
 
-  <router-link v-if=hasNext :to=nextLink>next</router-link>
+      <router-link v-if=hasNext :to=nextLink>next</router-link>
+    </div>
   </div>
 </template>
 
