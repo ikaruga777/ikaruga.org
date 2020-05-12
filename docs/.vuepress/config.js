@@ -39,7 +39,7 @@ module.exports = {
           {
             id: 'post',
             dirname: '_posts',
-            path: '/',
+            path: '/posts/',
             layout: 'PostList',
             itemLayout: 'Post',
             pagination: {
