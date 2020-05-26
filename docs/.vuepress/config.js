@@ -1,6 +1,16 @@
-path = require('path')
+const path = require('path')
+const { config } = require('dotenv')
+config()
+const webpack = require('webpack')
 
 module.exports = {
+  configureWebpack: (config) => {
+    return {
+      plugins: [
+        new webpack.EnvironmentPlugin({ ...process.env })
+      ]
+    }
+  },
   title: 'ikaruga.org',
   description: 'だぶんをつらねます',
   dest: path.resolve(__dirname, '../../dist'),
@@ -64,6 +74,19 @@ module.exports = {
         publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
         modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
       }
+    ],
+    [
+      '@vssue/vuepress-plugin-vssue', {
+        platform: 'github',
+        // all other options of Vssue are allowed
+        owner: 'ikaruga777',
+        repo: 'ikaruga.org',
+        clientId: process.env.VSSUE_CLIENT_ID,
+        clientSecret: process.env.VSSUE_CLIENT_SECRET,
+        admins: ['ikaruga777'],
+        perPage: 3,
+        locale: 'ja-JP'
+      },
     ],
   ],
   markdown: {
