@@ -10,6 +10,9 @@
       />
     </div>
     <Content />
+    <div class="comment">
+      <Vssue :title="$title" />
+    </div>
   </section>
 </template>
 
