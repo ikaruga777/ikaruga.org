@@ -14,5 +14,9 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vssue/api-github-v3": "^1.4.4",
+    "@vssue/vuepress-plugin-vssue": "^1.4.6"
   }
 }
