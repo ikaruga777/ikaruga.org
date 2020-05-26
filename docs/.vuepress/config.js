@@ -1,6 +1,16 @@
-path = require('path')
+const path = require('path')
+const { config } = require('dotenv')
+config()
+const webpack = require('webpack')
 
 module.exports = {
+  configureWebpack: (config) => {
+    return {
+      plugins: [
+        new webpack.EnvironmentPlugin({ ...process.env })
+      ]
+    }
+  },
   title: 'ikaruga.org',
   description: 'だぶんをつらねます',
   dest: path.resolve(__dirname, '../../dist'),
