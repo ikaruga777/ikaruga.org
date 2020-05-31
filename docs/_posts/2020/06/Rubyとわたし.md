@@ -1,5 +1,5 @@
 ---
-title: Rubyを教えてもらったときに印象的だったこと。
+title: Rubyを教えてもらったときの記録
 date: 2020-06-01 08:15:00+09:00
 feed:
   enable: true
