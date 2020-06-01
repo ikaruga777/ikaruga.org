@@ -57,7 +57,14 @@ module.exports = {
     ],
     [
       'feed', {
-        canonical_base: 'https://ikaruga.org'
+        canonical_base: 'https://ikaruga.org',
+        posts_directories: ['/_posts/'],
+        count: 20,
+        sort: function(posts) {
+          return posts.sort(function(a,b){
+            return new Date(b.date) - new Date(a.date)
+          })
+        }
       }
     ],
     [
