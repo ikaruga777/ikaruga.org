@@ -2,7 +2,9 @@
   "rules": {
     "preset-japanese": {
       "no-doubled-joshi": false,
-      "no-dropping-the-ra": false
+      "no-dropping-the-ra": false,
+      "max-ten": false,
+      "sentence-length": false
     }
   }
 }
