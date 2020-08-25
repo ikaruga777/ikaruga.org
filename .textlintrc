@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "preset-japanese": {
+      "no-doubled-joshi": false,
+      "no-dropping-the-ra": false
+    }
+  }
+}
