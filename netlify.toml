@@ -1,5 +1,5 @@
 [[headers]]
   for = "/*"
     [headers.values]
-      Content-Security-Policy-Report-Only: default-src 'self'; report-uri https://1e7455d3198c0d2f8a5a854e650639cd.report-uri.com/r/d/csp/reportOnly
+      Content-Security-Policy-Report-Only =  "default-src 'self'; report-uri https://1e7455d3198c0d2f8a5a854e650639cd.report-uri.com/r/d/csp/reportOnly"
 
