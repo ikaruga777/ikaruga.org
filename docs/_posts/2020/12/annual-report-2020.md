@@ -164,3 +164,13 @@ layout: post
 ----
 
 「やっていく」から少しでも「やる」を増やしたいので、2021年もやるぞ。
+
+## 昔のリザルト
+
+* [2019/12/31 2019年報](https://kkkeag.tumblr.com/post/189976946900/20191231-2019%E5%B9%B4%E5%A0%B1)
+* [2018/12/31 2018年報](https://kkkeag.tumblr.com/post/181582938810/20181231-2018%E5%B9%B4%E5%A0%B1)
+* [2017 まとめ](https://kkkeag.tumblr.com/post/169150580115/2017-%E3%81%BE%E3%81%A8%E3%82%81)
+* [2016 まとめ](https://kkkeag.tumblr.com/post/155208379230/2016-%E3%81%BE%E3%81%A8%E3%82%81)
+* [2015まとめ](https://kkkeag.tumblr.com/post/136324982375/2015%E3%81%BE%E3%81%A8%E3%82%81)
+* [2014/12/31 今年のまとめ](https://kkkeag.tumblr.com/post/106712837145/20141231-%E4%BB%8A%E5%B9%B4%E3%81%AE%E3%81%BE%E3%81%A8%E3%82%81)
+* [2013/12/31 まとめますよ。](https://kkkeag.tumblr.com/post/71751940918/2013-12-31)
