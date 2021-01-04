@@ -95,6 +95,9 @@ module.exports = {
         locale: 'ja-JP'
       },
     ],
+    [
+      'social-share',
+    ],
   ],
   markdown: {
     plugins: {
