@@ -97,8 +97,8 @@ module.exports = {
     ],
     [
       'social-share', {
-        noGlobalSocialShare: false,
-      }
+        noGlobalSocialShare: true,
+      },
     ],
   ],
   markdown: {
