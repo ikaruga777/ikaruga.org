@@ -3861,6 +3861,11 @@ hex-color-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
+highlight.js@^9.13.1:
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
+
 hmac-drbg@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
@@ -7840,6 +7845,13 @@ vue-disqus@^3.0.5:
   resolved "https://registry.yarnpkg.com/vue-disqus/-/vue-disqus-3.0.5.tgz#8d0dd5cabdba7c47f82d129d2907a64366842fa8"
   integrity sha512-T3Y68lXf5W2lYt6j4Y3kZ4opLPH0EAzqriy11MS4D4Q2+UN0tFuUXeYP1MxfvdyaCEboXSM6CUswxsULuNV70Q==
 
+vue-hljs@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/vue-hljs/-/vue-hljs-1.1.2.tgz#d6639e30964d1accb316f33b4e3266edc1e6012d"
+  integrity sha512-KRNdqY8Z54Tn6M34azYmKybW9YL5uhAnjpRTkIaxJOP2e0jkGkTBXzkYJFOFwBC+lWj+1SBs5PLvc6O3RKhpsQ==
+  dependencies:
+    highlight.js "^9.13.1"
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -7849,6 +7861,13 @@ vue-i18n@^8.11.2:
   version "8.17.2"
   resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.17.2.tgz#9ad15f5506ff012f6f770ec0474dcb714d96cd2d"
   integrity sha512-YIW0aXW/dzxI0rk9qYttvISv+Tt+w5WVjengswTLK0mKhwIfrAyMssbawohIn9tsmoxcHcA0G20bU7e/t2JATA==
+
+vue-instagram-embed@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/vue-instagram-embed/-/vue-instagram-embed-1.0.0.tgz#d32d3b1fbd4738eeeab6b7a6a80c6d29a1ba24c5"
+  integrity sha512-sQAa4ew6g4OE20XQzc/uYw40jFOoIFSFpfqvhaKNpgkQkBG5aNRxqdLsgAJtXAj2Q2H9kvQ/xxbiLGoQTrIsbQ==
+  dependencies:
+    vue-hljs "^1.1.2"
 
 vue-loader@^15.7.1:
   version "15.7.2"
