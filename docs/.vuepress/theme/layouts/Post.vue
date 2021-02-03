@@ -19,6 +19,7 @@
 
 <script>
 import TimeAgo from '../components/TimeAgo';
+import InstagramEmbed from 'vue-instagram-embed';
 
 export default {
   components: {
