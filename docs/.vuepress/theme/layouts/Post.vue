@@ -11,15 +11,15 @@
     </div>
     <Content />
     <social-share :networks="['twitter', 'facebook']" is-plain/>
-    <div class="comment">
-      <Vssue :title="$title" />
-    </div>
     <div>
        <router-link v-if="hasPrev" :to=prevPost.path>{{ prevPost.title }}</router-link> |
        <router-link v-if="hasNext" :to=nextPost.path> {{ nextPost.title }}</router-link>
     </div>
     <div v-for="(post ,index)  in this.posts()">
       {{ index }} - {{ post.title }}
+    </div>
+    <div class="comment">
+      <Vssue :title="$title" />
     </div>
   </section>
 </template>
