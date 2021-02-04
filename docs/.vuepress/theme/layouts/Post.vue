@@ -15,9 +15,6 @@
        <router-link v-if="hasPrev" :to=prevPost.path>{{ prevPost.title }}</router-link> |
        <router-link v-if="hasNext" :to=nextPost.path> {{ nextPost.title }}</router-link>
     </div>
-    <div v-for="(post ,index)  in this.posts()">
-      {{ index }} - {{ post.title }}
-    </div>
     <div class="comment">
       <Vssue :title="$title" />
     </div>
@@ -34,32 +31,22 @@ export default {
   },
   computed: {
     hasPrev() {
-      console.log('hasprev:' , this.posts().findIndex(post => post.key === this.$page.key) > 0)
       return this.posts().findIndex(post => post.key === this.$page.key) > 0
     },
     hasNext() {
-      console.log('hasnext:' , this.posts().findIndex(post => post.key === this.$page.key) < this.posts().length - 1)
-
       return this.posts().findIndex(post => post.key === this.$page.key) < this.posts().length - 1
     },
     prevPost() {
-      console.log("prev",this.posts()[this.posts().findIndex(post => post.key === this.$page.key)-1])
-
       return this.posts()[this.posts().findIndex(post => post.key === this.$page.key)-1]
     },
     nextPost() {
-      console.log("next",this.posts()[this.posts().findIndex(post => post.key === this.$page.key)+1])
-
       return this.posts()[this.posts().findIndex(post => post.key === this.$page.key)+1]
     },
     currentPost(){
-       console.log("current",this.posts()[this.posts().findIndex(post => post.key === this.$page.key)])
-
       return this.posts()[this.posts().findIndex(post => post.key === this.$page.key)]
     }
   },
   mounted: function(){
-    console.log(this.posts())
     document.addEventListener('keydown', this.transitionPage, false);
   },
   beforeDestroy: function() {
