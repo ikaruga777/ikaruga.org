@@ -3,7 +3,6 @@
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@vuepress/plugin-blog": "^1.9.3",
     "@vuepress/plugin-google-analytics": "^1.7.1",
-    "dotenv": "^8.2.0",
     "markdown-it-fontawesome": "^0.3.0",
     "vuepress": "^1.7.1",
     "vuepress-plugin-feed": "^0.1.9",
