@@ -11,9 +11,6 @@
     </div>
     <Content />
     <social-share :networks="['twitter', 'facebook']" is-plain/>
-    <div class="comment">
-      <Vssue :title="$title" />
-    </div>
   </section>
 </template>
 

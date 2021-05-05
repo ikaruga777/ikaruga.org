@@ -83,19 +83,6 @@ module.exports = {
       }
     ],
     [
-      '@vssue/vuepress-plugin-vssue', {
-        platform: 'github',
-        // all other options of Vssue are allowed
-        owner: 'ikaruga777',
-        repo: 'ikaruga.org',
-        clientId: process.env.VSSUE_CLIENT_ID,
-        clientSecret: process.env.VSSUE_CLIENT_SECRET,
-        admins: ['ikaruga777'],
-        perPage: 3,
-        locale: 'ja-JP'
-      },
-    ],
-    [
       'social-share', {
         noGlobalSocialShare: true,
       },
