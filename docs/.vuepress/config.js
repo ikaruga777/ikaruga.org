@@ -1,6 +1,4 @@
 const path = require('path')
-const { config } = require('dotenv')
-config()
 const webpack = require('webpack')
 
 module.exports = {
