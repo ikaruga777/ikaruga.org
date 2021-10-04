@@ -1,6 +1,6 @@
 ---
 title: 引数とbool
-date: 2013-06-28 12:21:00 +0900
+date: 2013-06-28 12:21:00+0900
 feed:
   enable: true
 layout: post

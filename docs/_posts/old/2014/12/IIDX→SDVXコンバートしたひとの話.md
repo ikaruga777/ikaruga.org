@@ -1,6 +1,6 @@
 ---
 title: IIDX→SDVXコンバートしたひとの話
-date: 2014-12-20 05:09:00 +0900
+date: 2014-12-20 05:09:00+0900
 feed:
   enable: true
 layout: post

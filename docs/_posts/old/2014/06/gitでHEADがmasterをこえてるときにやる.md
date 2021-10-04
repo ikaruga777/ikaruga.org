@@ -1,6 +1,6 @@
 ---
 title: gitでHEADがmasterをこえてるときにやる
-date: 2014-06-21 02:31:00 +0900
+date: 2014-06-21 02:31:00+0900
 feed:
   enable: true
 layout: post

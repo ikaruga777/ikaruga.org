@@ -1,6 +1,6 @@
 ---
 title: Macbook Air 買った.
-date: 2013-06-30 12:37:00 +0900
+date: 2013-06-30 12:37:00+0900
 feed:
   enable: true
 layout: post
