@@ -1,6 +1,6 @@
 ---
 title: 俺VS nokogiri in MBA
-date: 2014-01-22 00:11:00+0900
+date: 2014-01-22T00:11:00+09:00
 feed:
   enable: true
 layout: post

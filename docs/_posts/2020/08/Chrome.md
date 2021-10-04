@@ -1,6 +1,6 @@
 ---
 title: CHROME MINI METRO を カスタムオーダー
-date: 2020-08-27 12:01:13+09:00
+date: 2020-08-27T12:01:13+09:00
 feed:
   enable: true
 layout: post
