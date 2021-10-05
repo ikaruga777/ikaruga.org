@@ -1,6 +1,6 @@
 ---
 title: Rubyを教えてもらったときの記録
-date: 2020-06-01 08:15:00+09:00
+date: 2020-06-01T08:15:00+09:00
 feed:
   enable: true
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: 2017/08/11 builderscon 2017 Tokyoへいきました
-date: 2017-08-11 17:39:00 +0900
+date: 2017-08-11T17:39:00+09:00
 feed:
   enable: true
 layout: post

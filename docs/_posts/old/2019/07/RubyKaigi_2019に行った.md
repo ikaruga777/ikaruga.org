@@ -1,6 +1,6 @@
 ---
 title: RubyKaigi 2019に行った
-date: 2019-07-07 16:09:00 +0900
+date: 2019-07-07T16:09:00+09:00
 feed:
   enable: true
 layout: post

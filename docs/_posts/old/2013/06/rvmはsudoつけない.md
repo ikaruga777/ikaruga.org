@@ -1,6 +1,6 @@
 ---
 title: rvmはsudoつけない
-date: 2013-06-27 22:55:00 +0900
+date: 2013-06-27T22:55:00+09:00
 feed:
   enable: true
 layout: post

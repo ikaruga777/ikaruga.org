@@ -1,6 +1,6 @@
 ---
 title: Rails寺子屋2に行ってきたよ
-date: 2013-08-08 00:35:00 +0900
+date: 2013-08-08T00:35:00+09:00
 feed:
   enable: true
 layout: post
