@@ -78,6 +78,7 @@ layout: post
 - VCT 観てる
 - 2年ぶりに帰省
 - 家に人を呼んでみたり
+- RubyKaigi Takeout 2021
 
 ### 10月
 
@@ -86,6 +87,7 @@ layout: post
 - チャリで等々力へ
 - 三十路に
 - 仕事の所属が変わる
+- Kaigi on Rails
 
 ### 11月
 
@@ -102,7 +104,47 @@ layout: post
 - D4FESのライブをみる
 - 帰省
 
+
+## 総じて
+
+ライブしかりなんらかの配信を観るということがめちゃ増えたと思う。ライブ以外でも大会をオンラインの配信で行うのを観ていた。VCTや五輪の自転車ロードレースでは公式配信ミラーして解説を挟んだり配信者がミラーしてみんなでわいがや観るというのが自分には経験なくて面白かった。今年主にちゃんと観てたのは以下の3つくらいか。
+
+- Valorant Champion Ship
+- BEMANI Pro League
+- gorin.jp
+
+ライブはD4DJを配信で観てたりプリのライブはオフでも観に行ったり。あとはBiSH presents FROM DUSK TiLL DAWNとか。
+
 ## 飯
+
+### 城亜のたまごサンド
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">たまごサンドが名物っぽいので頼んだらthunder†みたいな物量飛んできてまあまあひっくり返ってる。 <a href="https://t.co/S4N390Jzb3">pic.twitter.com/S4N390Jzb3</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1465471764134514688?ref_src=twsrc%5Etfw">November 30, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### 松島蒲鉾本舗のむう
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/wT1alXoFQo">pic.twitter.com/wT1alXoFQo</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1459414072768696321?ref_src=twsrc%5Etfw">November 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### とんかつ燕楽のロースカツ
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ロースカツ <a href="https://t.co/E3cG4FTq1R">pic.twitter.com/E3cG4FTq1R</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1447144714264670210?ref_src=twsrc%5Etfw">October 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### げんのカニ
+
+twitterに上げてないけどうまかった。
+
+### よるののっこい
+
+初めていったけど雰囲気良かった。
+
+
+### やましろの寿司
+
+川崎にお店開いたばかりのときに行った。寿司も良かったし器の話も振ったら対応いただけてありがたさ。
+
+### うな重
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">はい <a href="https://t.co/NpQ4gwv2Ab">pic.twitter.com/NpQ4gwv2Ab</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1355120231052570634?ref_src=twsrc%5Etfw">January 29, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 漫画
 
@@ -226,6 +268,8 @@ layout: post
 - TypeSript, Golangでなんか書く
 - スキあらばAWS SAAリベンジ
 - 外部登壇
+- 福岡か鹿児島で仕事する
+- 北海道旅行か花あさぎ閉館するまえに行く
 
 あたりを。
 
