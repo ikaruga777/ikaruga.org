@@ -923,7 +923,7 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@fortawesome/fontawesome-free@^5.15.1":
+"@fortawesome/fontawesome-free@^5.15.4":
   version "5.15.4"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.4.tgz#ecda5712b61ac852c760d8b3c79c96adca5554e5"
   integrity sha512-eYm8vijH/hpzr/6/1CJ/V/Eb1xQFW2nnUKArb3z+yUWv7HTwj6M7SP957oMjfZjAHU6qpoNc2wQvIxBLWYa/Jg==
@@ -1365,7 +1365,7 @@
     "@vuepress/types" "1.9.5"
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-blog@^1.9.3":
+"@vuepress/plugin-blog@^1.9.4":
   version "1.9.4"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.9.4.tgz#34636d0387d28221c9f2564b6255786da0dd186a"
   integrity sha512-7A4Y3mYrSOUKdzsTjeVOKt0XgZ0m1Iqq7BeZn7y9YeZfDcZ4Fx6UldsPfK2+THwtYwGzQ7Not3zO8djyk7z3ew==
@@ -1379,7 +1379,7 @@
     vuepress-plugin-mailchimp "^1.4.1"
     vuepress-plugin-sitemap "^2.3.1"
 
-"@vuepress/plugin-google-analytics@^1.7.1":
+"@vuepress/plugin-google-analytics@^1.9.5":
   version "1.9.5"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.9.5.tgz#269d3ebea2a43bb0eee1deb8d6e2a5438dbe46f0"
   integrity sha512-tuEDq/5xwdK//0W3FZgAGJgTRlgV15fdVm6Nbo/nn2K/O0SmgJd3exybblZCOg2ZiVB8IGDyqzCflINc7u6G8Q==
@@ -8377,7 +8377,7 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-plugin-social-share@^1.0.0:
+vuepress-plugin-social-share@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-social-share/-/vuepress-plugin-social-share-1.1.0.tgz#0249554ab452364147d2dcb834ada55745e100bb"
   integrity sha512-r5JroZG3pTA1DFTxvoNevO7ORlrv3gu0kSGemnmIh11cQ5ruvhpa75eUS5/ovoX1WewGziSyCRmFEhgucpl8aw==
@@ -8392,7 +8392,7 @@ vuepress-plugin-social-share@^1.0.0:
     prismjs "^1.19.0"
     timeago.js "^4.0.2"
 
-vuepress@^1.7.1:
+vuepress@^1.9.5:
   version "1.9.5"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.9.5.tgz#6078ee01d9b4074b93834d77e6f086dd85fbc62e"
   integrity sha512-cLLCKkJSxL0PCgHZILrZ13z57Wi66zABhwe2n0JaoXq/bWXdGPfr9WoObVdQ0p186I/IKRIw4Ip22Y6qy+JA8g==
