@@ -86,13 +86,8 @@ module.exports = {
       },
     ],
   ],
-  markdown: {
-    plugins: {
-      'markdown-it-fontawesome': {
-      }
+  extendsMarkdown: (md) => {
+      md.use(require('markdown-it-fontawesome')),
     },
-    extendMarkdown: md => {
-      md.use(require('markdown-it-fontawesome'))
-    }
-  }
+  },
 }
