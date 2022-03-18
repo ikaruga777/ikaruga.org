@@ -55,8 +55,8 @@ layout: post
 
 吊橋を渡りつつ日帰りで乗れるいい感じの時刻を調べたら以下の2つが良さそうだった。
 
-千頭 10:48 ~ 11:15 塩郷 11:49 ~ 12:17
-千頭 14:42 ~ 15:08 塩郷 15:57 ~ 16:26
+- 千頭 10:48 ~ 11:15 塩郷 11:49 ~ 12:17
+- 千頭 14:42 ~ 15:08 塩郷 15:57 ~ 16:26
 
 どっちも千頭を拠点にして、塩郷まで行って吊橋を渡りつつ戻るパターン。今回は後者を採用することになった。
 
@@ -111,11 +111,15 @@ layout: post
 
 ### 売店
 
+呑気にソフトクリーム食べてたら駅の売店が閉まってた。
+
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">駅の売店1700までだと思って余裕こいてた1650までだった時の顔</p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1502554793566666752?ref_src=twsrc%5Etfw">March 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+プラザロコが18時までだと思ったら17までだった。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">プラザロコも17時までじゃん!!!!!</p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1502569160781758468?ref_src=twsrc%5Etfw">March 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-アクスタ購入失敗!!!!
+よって大井川鐵道アクスタ購入失敗!!!!
 
 ### 結果
 
