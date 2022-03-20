@@ -21,7 +21,7 @@ layout: post
   - 記事のタイトルもタイトルに含めてあると良いんだと思う。
   - とおもったら [おすすめ情報｜川根本町観光協会](https://www.okuooi.gr.jp/pickup/page.php?id=24) にも同じ内容あって、色んな所に導線入れたかったんだなというのを感じた。
 
-全然検索引っかかってこないし川根本についてはどこから見つけたか思い出せないくらいには思い出せない。けど、原作コラボという1点で行き先が伊豆から更に西の大井川鉄道に変わった。川根本のほうのグッズにしれっと綾乃さんいるのもでかかった。
+全然検索引っかかってこないし川根本町についてはどこから見つけたか思い出せない。けど、原作コラボという1点で行き先が伊豆から更に西の大井川鉄道に変わった。川根本町のほうのグッズにしれっと綾乃さんいるのもでかかった。
 
 <iframe width="318" height="275.25" scrolling="no" src="https://alu.jp/series/%E3%82%86%E3%82%8B%E3%82%AD%E3%83%A3%E3%83%B3%E2%96%B3/crop/embed/CUd2uNEVPRhPO9B0jxAa/0?referer=oembed" style="margin: auto; display: block; border-width: 0px;"></iframe> かわいい。
 
@@ -43,6 +43,8 @@ layout: post
 
 ### お店の営業時間
 
+3/12の時点で各施設の営業時間は以下のとおり。
+
 - プラザロコ 9時00分～ **17時00分**
 - 川根本町観光協会 8時15分～17時00分
 - 千頭駅売店 〜 **16時50分**
@@ -55,14 +57,14 @@ layout: post
 
 吊橋を渡りつつ日帰りで乗れるいい感じの時刻を調べたら以下の2つが良さそうだった。
 
-- 千頭 10:48 ~ 11:15 塩郷 11:49 ~ 12:17
-- 千頭 14:42 ~ 15:08 塩郷 15:57 ~ 16:26
+- 千頭 10:48 ~ 11:15 塩郷 11:49 ~ 12:17 千頭
+- 千頭 14:42 ~ 15:08 塩郷 15:57 ~ 16:26 千頭
 
 どっちも千頭を拠点にして、塩郷まで行って吊橋を渡りつつ戻るパターン。今回は後者を採用することになった。
 
 ### 吊橋カード
 
-吊橋カードはそれぞれにポイントが振られていて、獲得したポイントに応じて追加で川根本町の外の吊橋カードももらえる。ちゃんと川の上流の吊橋が高いポイント振られてて偉い。600, 1000でそれぞれ1枚もらえる。ご察しなんだけど、1000ポイント = 全コンプです。
+吊橋カードはそれぞれにポイントが振られていて、獲得したポイントに応じて追加で川根本町の外の吊橋カードももらえる。ちゃんと川の上流にあったり、行くのが大変そうな吊橋に高いポイントが振られてて偉い。600, 1000でそれぞれ1枚もらえる。ご察しなんだけど、1000ポイント = 全コンプです。
 
 鉄道乗るなら吊橋コンプ諦める必要がありそうだったので今回は吊橋カード600ポイントを目標にした。ポイントの詳細はtwitterでパブサかけちゃった。
 
@@ -72,7 +74,7 @@ layout: post
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ぶっとびカード <a href="https://t.co/LLTf8nlaT5">pic.twitter.com/LLTf8nlaT5</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1502271905264709632?ref_src=twsrc%5Etfw">March 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-以下適度に渡った橋のピックアップ。
+以下適度に渡った橋のピックアップとかハイライト。
 
 ### 両国吊橋
 
@@ -88,7 +90,7 @@ layout: post
 
 ### 市代の吊橋
 
-多分車だと回収最難関。鉄道なら駅の目の前なので、簡単に観に行けるんだけど、車だとほっそいみちを抜けて上から撮りに行く必要がありそう。こっちも景色が良かった。
+多分車だと回収最難関?鉄道なら駅の目の前なので、簡単に観に行けるんだけど、車だとほっそいみちを抜けて上から撮りに行く必要がありそう。こっちも景色が良かった。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ダムの水位で脳がバグる <a href="https://t.co/9BCfMF8NJN">pic.twitter.com/9BCfMF8NJN</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1502473189762670592?ref_src=twsrc%5Etfw">March 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -101,6 +103,13 @@ layout: post
 
 猿並橋という吊橋が近くにあるのだけれども、そっちは鉄道の時刻がアレっぽかったので断念した。
 
+### 昼食
+
+寸又峡温泉の晴耕雨読のカフェでピザを食べた。
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/uvb_76/51943039794/in/album-72177720297403560/" title="Untitled"><img src="https://live.staticflickr.com/65535/51943039794_af80220511.jpg" width="375" height="500" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+ [寸又峡ショップ＆カフェ　晴耕雨読・ハンモックカフェ](http://seikou-udoku2012.com/seikou-udoku.html)
 ### 塩郷の吊橋
 
 道路と線路の上を通る吊橋。揺れるけど流石に慣れた。近くの自販機にChabacoが残ってたので手に入れた。タバコっぽいけどお茶です。
@@ -115,7 +124,7 @@ layout: post
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">駅の売店1700までだと思って余裕こいてた1650までだった時の顔</p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1502554793566666752?ref_src=twsrc%5Etfw">March 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-プラザロコが18時までだと思ったら17までだった。
+プラザロコも18時までだと思ったら17時までだった。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">プラザロコも17時までじゃん!!!!!</p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1502569160781758468?ref_src=twsrc%5Etfw">March 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -123,7 +132,7 @@ layout: post
 
 ### 結果
 
-ちょうど600ポイント回収してEXカード1枚ゲットです。アクスタもかわいいので満足。
+吊橋カードはちょうど600ポイント回収してEXカード1枚ゲットです。アクスタもかわいいので満足。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">リザルトです。ちょいちょい寄り道したのでカードコンプはできなかった。吊橋も井川線も自面白アトラクションだったのでまた来たいね。 <a href="https://t.co/kHtZ3FMzFv">pic.twitter.com/kHtZ3FMzFv</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1502575452686553091?ref_src=twsrc%5Etfw">March 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
