@@ -8389,9 +8389,9 @@ vuepress-plugin-social-share@^1.1.0:
   dependencies:
     deepmerge "^4.2.2"
 
-"vuepress-theme-simple@git+https://github.com/ikaruga777/vuepress-theme-simple.git":
-  version "1.1.1"
-  resolved "git+ssh://git@github.com/ikaruga777/vuepress-theme-simple.git#fd7daeaf18c2073be6623e00c275409dd59d296e"
+"vuepress-theme-simple@git+https://github.com/ikaruga777/vuepress-theme-simple.git#dev":
+  version "1.2.2"
+  resolved "git+https://github.com/ikaruga777/vuepress-theme-simple.git#f4d1fcfb077f616745fc011db170cc9a85a82f8d"
   dependencies:
     "@vuepress/plugin-last-updated" "^1.2.0"
     prismjs "^1.19.0"

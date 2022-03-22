@@ -10,7 +10,7 @@
     "vuepress-plugin-seo": "^0.2.0",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-social-share": "^1.1.0",
-    "vuepress-theme-simple": "git+https://github.com/ikaruga777/vuepress-theme-simple.git"
+    "vuepress-theme-simple": "git+https://github.com/ikaruga777/vuepress-theme-simple.git#dev"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
