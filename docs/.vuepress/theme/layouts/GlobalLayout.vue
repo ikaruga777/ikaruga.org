@@ -1,13 +1,9 @@
 <template>
   <div class="theme-container vuepress-theme-simple">
     <header class="header">
-      <router-link
-        to="/"
-        :title="$description"
-        class="site-name"
-      >
+      <a href="https://ikaruga.org" class="site-name">
         {{ $site.title }}
-      </router-link>
+      </a>
       <div style="clear: both" />
       <nav-bar />
     </header>
