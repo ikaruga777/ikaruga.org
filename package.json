@@ -1,15 +1,15 @@
 {
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^6.0.0",
+    "@fortawesome/fontawesome-free": "^6.1.1",
     "@vuepress/plugin-blog": "^1.9.4",
     "@vuepress/plugin-google-analytics": "^1.9.7",
     "markdown-it-fontawesome": "^0.3.0",
     "vuepress": "^1.9.7",
     "vuepress-plugin-feed": "^0.1.9",
-    "vuepress-plugin-permalink-pinyin": "^1.0.0",
+    "vuepress-plugin-permalink-pinyin": "^1.1.0",
     "vuepress-plugin-seo": "^0.2.0",
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-plugin-social-share": "^1.1.0",
+    "vuepress-plugin-social-share": "^1.2.1",
     "vuepress-theme-simple": "git@github.com:ikaruga777/vuepress-theme-simple.git"
   },
   "scripts": {
