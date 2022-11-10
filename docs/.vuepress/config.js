@@ -54,6 +54,12 @@ module.exports = {
       }
     ],
     [
+      'vuepress-plugin-google-tag-manager',
+      {
+        'gtm': 'GTM-5C26B9M'
+      }
+    ],
+    [
       'feed', {
         canonical_base: 'https://ikaruga.org',
         posts_directories: ['/_posts/'],

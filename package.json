@@ -16,5 +16,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "dependencies": {}
+  "dependencies": {
+    "vuepress-plugin-google-tag-manager": "^0.0.5"
+  }
 }
