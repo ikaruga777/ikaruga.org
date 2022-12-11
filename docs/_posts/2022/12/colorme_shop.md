@@ -6,9 +6,7 @@ feed:
 layout: post
 ---
 
-この記事は[GMOペパボ EC Advent Calendar 2022](https://adventar.org/calendars/7443) の11日目の記事です。
-
-10日目はKanaさんの [お問合せ対応に、エンジニアとして関わってきたことを、振り返ってみた](https://note.com/hamm86/n/n9896fc4f413d) でした。
+この記事は[GMOペパボ EC Advent Calendar 2022](https://adventar.org/calendars/7443) の11日目の記事です。昨日10日はKanaさんの [お問合せ対応に、エンジニアとして関わってきたことを、振り返ってみた](https://note.com/hamm86/n/n9896fc4f413d) でした。
 
 --------
 
@@ -51,7 +49,7 @@ layout: post
 
 ---
 
-という感じで弊社サービスを使ってくれている私に身近なショップ様情報でした。使っていただき、ありがとうございます。ちなみにどうやって判断しているの?という点については、このアドベントカレンダーの後半の記事のどこかで紹介があるでしょう!
+という感じで弊社サービスを使ってくれている私に身近なショップ様情報でした。使っていただき、ありがとうございます。ちなみにどうやって判断しているの?という点については、このアドベントカレンダーの後半の記事のどこかで紹介があるでしょう!明日の担当は石川未央さんです!
 
 
 <iframe src="https://adventar.org/calendars/7443/embed" width="640" height="480" frameborder="0" loading="lazy" style="text-align: center; margin: 0 auto;
