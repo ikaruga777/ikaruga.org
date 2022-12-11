@@ -6,7 +6,7 @@ feed:
 layout: post
 ---
 
-[GMOペパボ EC Advent Calendar 2022](https://adventar.org/calendars/7443) の11日目の記事です。
+この記事は[GMOペパボ EC Advent Calendar 2022](https://adventar.org/calendars/7443) の11日目の記事です。
 
 10日目はKanaさんの [お問合せ対応に、エンジニアとして関わってきたことを、振り返ってみた](https://note.com/hamm86/n/n9896fc4f413d) でした。
 
