@@ -51,6 +51,7 @@ layout: post
 
 という感じで弊社サービスを使ってくれている私に身近なショップ様情報でした。使っていただき、ありがとうございます。ちなみにどうやって判断しているの?という点については、このアドベントカレンダーの後半の記事のどこかで紹介があるでしょう!明日の担当は石川未央さんです!
 
+[相手からYESを引き出すダーティな交渉術｜タテグチ｜note](https://note.com/muuumuu/n/nf65ac99620ca)
 
 <iframe src="https://adventar.org/calendars/7443/embed" width="640" height="480" frameborder="0" loading="lazy" style="text-align: center; margin: 0 auto;
   max-width: 100%;"></iframe>
