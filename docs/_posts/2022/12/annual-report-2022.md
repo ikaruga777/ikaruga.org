@@ -15,6 +15,8 @@ layout: post
 - 函館で年越し。菊泉のくじら汁がおいしい。
 - 伊豆旅行。マリオットホテル良かった。
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">いいじゃん <a href="https://t.co/KXkhfNP6jI">pic.twitter.com/KXkhfNP6jI</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1485445162725740553?ref_src=twsrc%5Etfw">January 24, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### 2月
 
 - 不調だったぽい
@@ -32,6 +34,7 @@ layout: post
 - 宝石展
 - 🍣
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">うおおおおおおおお奥大井湖上 <a href="https://t.co/uzRB6rqBLh">pic.twitter.com/uzRB6rqBLh</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1502466082719735810?ref_src=twsrc%5Etfw">March 12, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### 4月
 
@@ -46,6 +49,7 @@ layout: post
 - 京都旅行
 - D4FES. LIVE - ALL IN -
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんにちは〜〜〜〜 <a href="https://twitter.com/hashtag/D4FES_ALLIN?src=hash&amp;ref_src=twsrc%5Etfw">#D4FES_ALLIN</a> <a href="https://t.co/qL0hbbe48f">pic.twitter.com/qL0hbbe48f</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1530398597082034176?ref_src=twsrc%5Etfw">May 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### 6月
 - 渋谷でオール
@@ -64,6 +68,9 @@ layout: post
 - 神戸旅
 - ここらへんからしばらく仕事がフィーバー
 - ファクトを知るには〜って嘆いてた
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">風見鶏の館には行った <a href="https://t.co/NFpS7JDdrh">pic.twitter.com/NFpS7JDdrh</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1560935146122948608?ref_src=twsrc%5Etfw">August 20, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ### 9月
 
@@ -91,9 +98,11 @@ layout: post
 - プリティーリズムライブ
 - 年末広島
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">こんにちは〜 <a href="https://t.co/Q0hjjvL3y3">pic.twitter.com/Q0hjjvL3y3</a></p>&mdash; い (@UVB_76) <a href="https://twitter.com/UVB_76/status/1608367280416788483?ref_src=twsrc%5Etfw">December 29, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## 総じて
 
-直近で一番いろんなところに行った年になったと思う。伊豆、京都、三重、浜松、神戸、そして今広島に行った帰りの新幹線でこれを書いている。どこも楽しかったし、ご飯も美味しかったのでちょこちょこ計画していきたいね。
+直近で一番いろんなところに行った年になったと思う。伊豆、京都、群馬、三重、浜松、神戸、そして今広島に行った帰りの新幹線でこれを書いている。どこも楽しかったし、ご飯も美味しかったのでちょこちょこ計画していきたいね。
 
 上に関連するんだけど、オフラインでなんかしましょうという動きが強く働いたことで、酒案件やオフラインイベントが多かったのも個人的にはよかった。仕事のことを明け方まで話したり、RubyKaigiで三重に移動してやんややんやしたり。さいたまスーパーアリーナでのVCTの観戦や富士急のD4FESも大いに盛り上がって良い体験であった。
 
