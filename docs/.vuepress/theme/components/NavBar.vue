@@ -3,13 +3,7 @@
     v-if="navbar"
     class="navbar"
   >
-    <a
-      v-for="(url, name) in navbar"
-      :key="name"
-      :href="url"
-      class="navbar-item"
-      rel="noopener noreferrer"
-    >{{ name }}</a>
+    <router-link class="navbar-item" to="/me">About me</router-link>
   </div>
 </template>
 
