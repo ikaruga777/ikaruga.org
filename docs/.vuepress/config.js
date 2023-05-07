@@ -24,9 +24,7 @@ module.exports = {
     author: 'ikaruga',
     domain: 'https://ikaruga.org',
     navbar: {
-      "GitHub": 'https://github.com/ikaruga777',
-      "Twitter": "https://twitter.com/UVB_76",
-      "Flickr": "https://www.flickr.com/photos/uvb_76/",
+      "About me": './me',
     }
   },
   plugins: [
