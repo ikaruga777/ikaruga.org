@@ -7,7 +7,6 @@
       v-for="(url, name) in navbar"
       :key="name"
       :href="url"
-      target="_blank"
       class="navbar-item"
       rel="noopener noreferrer"
     >{{ name }}</a>
