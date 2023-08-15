@@ -83,6 +83,11 @@ module.exports = {
         noGlobalSocialShare: true,
       },
     ],
+    [
+      'sitemap', {
+        hostname: 'https://ikaruga.org',
+      }
+    ],
   ],
   markdown: {
     plugins: {
