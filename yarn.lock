@@ -1406,13 +1406,6 @@
     vuepress-plugin-mailchimp "^1.4.1"
     vuepress-plugin-sitemap "^2.3.1"
 
-"@vuepress/plugin-google-analytics@^1.9.7":
-  version "1.9.7"
-  resolved "https://registry.npmjs.org/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.9.7.tgz"
-  integrity sha512-ZpsYrk23JdwbcJo9xArVcdqYHt5VyTX9UN9bLqNrLJRgRTV0X2jKUkM63dlKTJMpBf+0K1PQMJbGBXgOO7Yh0Q==
-  dependencies:
-    "@vuepress/types" "1.9.7"
-
 "@vuepress/plugin-last-updated@1.9.7", "@vuepress/plugin-last-updated@^1.2.0":
   version "1.9.7"
   resolved "https://registry.npmjs.org/@vuepress/plugin-last-updated/-/plugin-last-updated-1.9.7.tgz"

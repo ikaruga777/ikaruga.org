@@ -46,12 +46,6 @@ module.exports = {
       }
     ],
     [
-      '@vuepress/google-analytics',
-      {
-        'ga': 'UA-152792685-1'
-      }
-    ],
-    [
       'vuepress-plugin-google-tag-manager',
       {
         'gtm': 'GTM-5C26B9M'
