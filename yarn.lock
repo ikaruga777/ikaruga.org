@@ -8751,7 +8751,7 @@ vuepress-plugin-social-share@^1.2.1:
     deepmerge "^4.2.2"
     qrcode "^1.5.0"
 
-"vuepress-theme-simple@git@github.com:ikaruga777/vuepress-theme-simple.git":
+"vuepress-theme-simple@git@github.com:ikaruga777/vuepress-theme-simple.git#master":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/vuepress-theme-simple/-/vuepress-theme-simple-1.2.2.tgz#4051536e1d23f226c7f059171d1f9823e5ab41fc"
   integrity sha512-Qe6H/PSW3Ow501Cs/uu3g+zldfPdW3NY4ZWwHwXQjsx4BvhG7jwlIjzO0/aQwWoPjxIGI4Jn9Zu7/ImheKlGgg==
