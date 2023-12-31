@@ -1,6 +1,6 @@
 ---
 title: 2023まとめ
-date: 2022-12-31T20:15:13+09:00
+date: 2023-12-31T20:15:13+09:00
 feed:
   enable: true
 layout: post
