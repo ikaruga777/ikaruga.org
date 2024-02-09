@@ -14,6 +14,7 @@
     "WORK=<a href="https://pepabo.com/" target="_blank">GMO Pepabo Inc.</a>"
     "TWITTER=<a href="https://twitter.com/UVB_76" target="_blank">@UVB_76</a>"
     "GITHUB=<a href="https://github.com/ikaruga777" target="_blank">ikaruga777</a>"
+    "BLUESKY=<a href="https://bsky.app/profile/ikaruga.org" target="_blank">@ikaruga.org</a>"
     </code>
   </pre>
 </div>
