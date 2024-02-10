@@ -15,19 +15,7 @@
     <social-share :networks="['twitter', 'facebook']" is-plain/>
     <Comment />
     <!-- HatenaStar -->
-    <script type="text/javascript" src="https://s.hatena.ne.jp/js/HatenaStar.js"></script>
-    <script type="text/javascript">
-      Hatena.Star.SiteConfig = {
-        entryNodes: {
-          'section': {
-            uri: 'h3 a',
-            title: 'post-title',
-            container: 'hatena-star'
-          }
-        }
-      };
-    </script>
-    <div class="hatena-star"></div>
+    <span class="hatena-star" style="display:none;"></span>
   </section>
 </template>
 
@@ -44,6 +32,19 @@ export default {
     url() {
       return this.$themeConfig.domain + this.$page.path;
     }
-  }
+  },
+  mounted() {
+    const script = document.createElement('script');
+    script.src = 'https://s.hatena.ne.jp/js/HatenaStar.js';
+    document.body.appendChild(script);
+    Hatena.Star.SiteConfig = {
+        entryNodes: {
+          'section': {
+            uri: 'h3 a',
+            title: 'post-title',
+            container: 'hatena-star'
+          }
+        }
+      };
 }
 </script>
