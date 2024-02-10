@@ -2,7 +2,7 @@
   <section class="post-view">
     <div class="post-head">
       <h1 class="post-title">
-        <a :href="$page.path">
+        <a :href="url">
           {{ $page.title }}
         </a>
       </h1>
@@ -27,5 +27,10 @@ export default {
     TimeAgo,
     Comment,
   },
+  computed: {
+    url() {
+      return this.$themeConfig.domain + this.$page.path;
+    }
+  }
 }
 </script>
