@@ -19,7 +19,7 @@
     <script type="text/javascript">
       Hatena.Star.SiteConfig = {
         entryNodes: {
-          'section.post-view': {
+          'section': {
             uri: 'h3 a',
             title: 'post-title',
             container: 'hatena-star'
