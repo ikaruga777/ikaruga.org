@@ -15,6 +15,19 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5C26B9M');</script>
+    <!-- HatenaStar -->
+    <script type="text/javascript" src="https://s.hatena.ne.jp/js/HatenaStar.js"></script>
+    <script type="text/javascript">
+      Hatena.Star.SiteConfig = {
+        entryNodes: {
+          'section.post-view': {
+            uri: 'h3 a',
+            title: 'post-title',
+            container: 'hatena-star'
+          }
+        }
+      };
+    </script>
     <!-- End Google Tag Manager -->
   </div>
 </template>
