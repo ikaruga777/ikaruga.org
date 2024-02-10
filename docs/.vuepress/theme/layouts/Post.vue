@@ -14,6 +14,19 @@
     <Content />
     <social-share :networks="['twitter', 'facebook']" is-plain/>
     <Comment />
+    <!-- HatenaStar -->
+    <script type="text/javascript" src="https://s.hatena.ne.jp/js/HatenaStar.js"></script>
+    <script type="text/javascript">
+      Hatena.Star.SiteConfig = {
+        entryNodes: {
+          'section.post-view': {
+            uri: 'h3 a',
+            title: 'post-title',
+            container: 'hatena-star'
+          }
+        }
+      };
+    </script>
     <div class="hatena-star"></div>
   </section>
 </template>
