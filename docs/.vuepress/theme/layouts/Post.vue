@@ -40,7 +40,7 @@ export default {
     Hatena.Star.SiteConfig = {
         entryNodes: {
           'section': {
-            uri: 'h3 a',
+            uri: 'post-title a',
             title: 'post-title',
             container: 'hatena-star'
           }
