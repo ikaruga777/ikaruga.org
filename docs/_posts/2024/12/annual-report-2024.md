@@ -138,6 +138,29 @@ DJコントローラー。ほとんどRubyMusicMixinのために買ったまで�
 
 今年はGo Beyond!!とGo Ahead!!にEXHardがついたのが本当に大きな収穫。DPは12のハード割と埋めたけど、皆伝は相変わらずMENDESで破壊されている。今作の皆伝からMENDES消えたらワンチャンがあるかもしれない。
 
+## 音楽
+
+今年のたのしいおんがくコーナー。
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4x4FHRUVUH57NXhTh1pKDp?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4BAyc37k3eWHs93aMT21XA?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T1GK55fsIhw?si=z8mPmHyOpwGgYGNF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sq5Dj0U06vQ?si=41MLfGQl7y6iNIPf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5XsPjGw1ADBcVU0i7mwNb1?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4ENyQffkEbyZx2Psx7ThZf?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4cTl1QbSXLo?si=b3ZYyO9Cglf-jSe6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5Z39sSurGhTDINcekIWnVr?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4NOgPWmpVpf4ENuzAJA7lK?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ## 技術コミュニティ
 
 今年は意識的にあちらこちらのカンファレンスに参加する立ち回りをしていた。技術的興味はもちろん、社内で登壇する人を増やす...よりも前に参加する人を増やすために何ができそうかを色々知りたかったというのが理由としてある。YAPC::Hakodateは完全に想定外だったけど、地元で開催されるのが本当に嬉しかったから乗り込んでしまった。
