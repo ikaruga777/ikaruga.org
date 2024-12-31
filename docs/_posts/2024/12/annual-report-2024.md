@@ -140,7 +140,7 @@ DJコントローラー。ほとんどRubyMusicMixinのために買ったまで�
 
 ## 音楽
 
-今年のたのしいおんがくコーナー。
+今年のたのしいおんがくコーナー。学マス楽曲が全部最高すぎたけど、MV含めるとLuna say maybeがかなりいいところ突いてくるんだよな。あとはバーチャルな人の楽曲を漁ったりしてたかも。Radiant Dawnは今までのギルティギアのストーリーを追っていると感無量だよね。
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4x4FHRUVUH57NXhTh1pKDp?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
