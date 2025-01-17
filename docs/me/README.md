@@ -24,7 +24,7 @@
 - ブログ: [Re: 醤油の一升瓶じゃあ戦えない](https://uvb-76.hatenablog.com/)
 - Scrapbox: [めもるが](https://scrapbox.io/uvb-76/)
 - <i class="fa-brands fa-flickr"> </i>: [Flickr](https://www.flickr.com/photos/uvb_76/)
-- beatmania IIDX: [4214-8644](https://score.iidx.app/users/4214-8644) 皆伝 / 中伝
+- beatmania IIDX: [4214-8644](https://score.iidx.app/users/4214-8644) 両皆伝
 - misskey.io: [@ikaruga](https://misskey.io/@ikaruga)
 
 <span style="display: flex;  justify-content: center;">
