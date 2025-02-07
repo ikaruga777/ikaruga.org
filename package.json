@@ -12,7 +12,7 @@
     "vuepress-theme-simple": "git@github.com:ikaruga777/vuepress-theme-simple.git#master"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "NODE_OPTIONS='--openssl-legacy-provider' vuepress dev docs",
+    "docs:build": "NODE_OPTIONS='--openssl-legacy-provider' vuepress build docs"
   }
 }
