@@ -1,12 +1,12 @@
 ---
 title: 2025 アルコール カラーミーショップ 検索
-date: 2025-12-06T05:30:00+09:00
+date: 2025-12-06T06:00:00+09:00
 feed:
   enable: true
 layout: post
 ---
 
-この記事は[GMOペパボ EC Advent Calendar 2025 - Adventar](https://adventar.org/calendars/11887)6日目の記事です。5日はやんまーさんのFooでした。
+この記事は[GMOペパボ EC Advent Calendar 2025 - Adventar](https://adventar.org/calendars/11887)6日目の記事です。
 
 --------
 
@@ -74,7 +74,7 @@ layout: post
 
 という感じで弊社サービスを使ってくれているお酒にまつわるショップ様情報でした。使っていただき、ありがとうございます。アルコール自体は今年も色々飲んだけどそれはまた別で書きましょう。
 
-明日7日は成松高太郎のBarです。お楽しみに。
+明日7日は成松高太郎さんです。お楽しみに。
 
 <iframe src="https://adventar.org/calendars/11887/embed" width="640" height="480" frameborder="0" loading="lazy" style="text-align: center; margin: 0 auto;
   max-width: 100%;"></iframe>
