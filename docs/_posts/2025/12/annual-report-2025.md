@@ -1,6 +1,6 @@
 ---
 title: 2025まとめ
-date: 2025-12-31T21:00:00+09:00
+date: 2025-12-31T21:45:00+09:00
 feed:
   enable: true
 layout: post
@@ -46,17 +46,17 @@ tags: 近況
 - 学マスが1周年でめでたい
 - 薬屋のひとりごとにどハマりする
 - 終点執着展見に行った
-- 未来大でなんか喋ってきたついでにくいだおれと帰省
+- 未来大でなんか喋ってきたついでに帰省とくいだおれ
 - センター試験とは何かを深夜2時に学んだ
 
 
 ### 6月
 
-- 技術書典
-- Switch2を手に入れたのでマリオカートをちびちび
-- 荒川で酒
-- 福岡旅行
-- 関西Ruby会議08
+- 技術書典行った
+- Switch2を手に入れたのでマリオカートを遊んでいた
+- 荒川で酒飲んでいた
+- ライブの付き添いとして福岡に旅行した
+- 関西Ruby会議08に参加して京都を旅した
 
 ### 7月
 
@@ -75,16 +75,16 @@ tags: 近況
 
 ### 9月
 
-- 大吉祥寺.pm, からのきちぴーナイトパーティー行った
-- 関西万博行った
-- Kaigi on Rails 2025行った
+- 大吉祥寺.pm, からのきちぴーナイトパーティーに行った
+- 関西万博に行った
+- Kaigi on Rails 2025に行った
 - 弐寺新作
 - 浅草ビール工房で見知らぬPと話した
 - にじさんじチップスが箱で家に届いたのでひたすら消費してた
 
 ### 10月
 
-- 暴力的にカワイイ行ってイェーガーショットに飲まれかけた
+- 暴力的にカワイイに行ってイェーガーショットに飲まれかけた
 - タイに行って一週間くらい浮かれて過ごした
 - 加齢した
 - M3行った
@@ -192,13 +192,45 @@ CD。今これを作業用BGMにしながら書いてる。ゲームサイズで
 
 SPもやっている。今年も黒イカはハードできなかったので来季にご期待ください。
 
-## 音楽
+## 音楽(活動)
 
 人前(主にRubyist)で音楽をかけて遊ぶのを2回くらい。今年は基本的に机の上が破滅していて、DJコントローラーを出す隙間もなかったので全然活動はできていない。頭の中にネタは色々あるので、来年のRubyMusicMixinでお会いしましょう。
 
 [RubyKaigi 2025アフターイベントのRubyMusicMixin 2025でDJとして出演した - Re: 醤油の一升瓶じゃあ戦えない](https://uvb-76.hatenablog.com/entry/2025/04/21/190000)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">古の曲を中心に夏っぽい感じでかけました。 <a href="https://t.co/KvOottfL88">pic.twitter.com/KvOottfL88</a></p>&mdash; Ɩ ıかʓが (@UVB_76) <a href="https://twitter.com/UVB_76/status/1938263375307538452?ref_src=twsrc%5Etfw">June 26, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+あと実はベース(楽器)は地味に続いている。音ゲーの曲やJPOPを課題曲にする身内会合が定期的にあって、弾きながらその度に指に水膨れを作ったりしている。音ゲー曲で楽しかったのはこたつとみかん。JPOPで楽しかったのは新宝島で毎回青と夏に特攻して破壊されている。もう少し練習時間を増やしたい。
+
+## 音楽(いい曲)
+
+今年もSpotifyでは初星学園の曲をたくさん聴きました。
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5p3yo67oG0j49bYJyRM4l9?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+サンフェーデッドの浮遊感すごい
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XLwmEuM0dIw?si=9afq6UZc3n3yqtb5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Celebrate (Snail's House Remix) (feat. shully)はRubyMusicMixinのオーラスでかけたんだけど、曲のエモさと現場のMCも相まってかなり好きになった。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CfAXzm5HGjc?si=ZS4jPrujmjQAl1qH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+PEDROは動画でしか追っていないんだけど、この1999の振り切れ方がすごくて、野音のPEDRO行けば良かったと思う程度には良かった。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NIehxBw5HlM?si=cH0rVzdATv1sD7OS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Ave Mujicaもここ最近のライブ行きたい筆頭。アニメ見てないけど。佐々木李子が神なのはそうだけど、D4DJを最初から追っていた人間としては渡瀬結月があまりにもよすぎる。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sKAnrjRpt40?si=bKqFia_Rh9uhl8GN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+他にも今年は旧作の音ゲーサントラを集めるというのをやっていて、初期の5鍵やIIDXのサントラをブックオフで買い漁るなどして人前で流すということをしていた。来年も継続したい。今一番欲しいのはbeatmania 4th MIX 〜the beat goes on〜 Original Soundtracksですよろしくお願いします(20,Novemberのhard mixを手に入れたい)。
+
+## 写真
+
+去年買ったLomoの110カメラで撮ったものをFlickrとかInstagramにあげている。雑に撮れて楽しいね。そしてこの雑に撮れるというのは嘘で、本当はフィルム代と現像代で24枚3000円弱かかっている。
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/uvb_76/albums/72177720324856586" title="20250301"><img src="https://live.staticflickr.com/65535/54429107166_d42dc11dda_w.jpg" width="500" height="375" alt="20250301"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/uvb_76/albums/72177720325868132" title="20250424"><img src="https://live.staticflickr.com/65535/54497237139_0cc9d60f93.jpg" width="500" height="375" alt="20250424"/></a>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/uvb_76/albums/72177720327592992" title="20250710"><img src="https://live.staticflickr.com/65535/54660039418_bf1291fd90.jpg" width="500" height="375" alt="20250710"/></a>
 
 ## 技術コミュニティ
 
