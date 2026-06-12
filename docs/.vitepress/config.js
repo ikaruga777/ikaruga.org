@@ -166,6 +166,23 @@ export default defineConfig({
     hostname: DOMAIN
   },
 
+  markdown: {
+    config(md) {
+      // 記事に貼られた埋め込みコード（X・Flickr等）の<script>タグはVueコンパイラが
+      // 受け付けないため、レンダリング時に除去する。スクリプト本体はテーマ側
+      // （theme/composables/useEmbeds.js）でロードする。<script setup>はSFCブロックなので残す
+      const stripScriptTags = (html) =>
+        html
+          .replace(/<script\b(?![^>]*\bsetup\b)[^>]*>[\s\S]*?<\/script>/gi, '')
+          .replace(/<script\b(?![^>]*\bsetup\b)[^>]*>/gi, '')
+          .replace(/<\/script>/gi, '')
+      for (const rule of ['html_block', 'html_inline']) {
+        const original = md.renderer.rules[rule] ?? ((tokens, idx) => tokens[idx].content)
+        md.renderer.rules[rule] = (...args) => stripScriptTags(original(...args))
+      }
+    }
+  },
+
   // _posts/ プレフィックスを削除するための rewrites
   rewrites: {
     '_posts/old/:year/:month/:slug': 'old/:year/:month/:slug',

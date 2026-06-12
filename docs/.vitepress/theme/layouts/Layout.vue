@@ -23,8 +23,10 @@ import NavBar from '../components/NavBar.vue'
 import FooterBar from '../components/FooterBar.vue'
 import PostList from './PostList.vue'
 import Post from './Post.vue'
+import { useEmbeds } from '../composables/useEmbeds.js'
 
 const { site, page } = useData()
+useEmbeds()
 const siteTitle = computed(() => site.value.title)
 // relativePathはrewrites適用後のパス（_posts/プレフィックスなし）になる
 const isHome = computed(() => {

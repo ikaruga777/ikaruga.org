@@ -23,15 +23,10 @@
 
 - ブログ: [Re: 醤油の一升瓶じゃあ戦えない](https://uvb-76.hatenablog.com/)
 - Scrapbox: [めもるが](https://scrapbox.io/uvb-76/)
-- <i class="fa-brands fa-flickr"> </i>: [Flickr](https://www.flickr.com/photos/uvb_76/)
+- [Flickr](https://www.flickr.com/photos/uvb_76/)
 - beatmania IIDX: [4214-8644](https://score.iidx.app/users/4214-8644) 両皆伝
 - misskey.io: [@ikaruga](https://misskey.io/@ikaruga)
 
 <span style="display: flex;  justify-content: center;">
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/uvb_76/albums/72177720308085762" title="showcase"><img src="https://live.staticflickr.com/2941/33206327450_bcd06dbe6d_w.jpg" width="400" height="300" alt="showcase"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/uvb_76/albums/72177720308085762" title="showcase"><img src="https://live.staticflickr.com/2941/33206327450_bcd06dbe6d_w.jpg" width="400" height="300" alt="showcase"/></a>
 </span>
-<style type="text/css">
-  .flickr-embed-frame {
-
-  }
-</style>
