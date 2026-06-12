@@ -7,6 +7,47 @@ import { join } from 'path'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
+// VuePress（@vuepress/shared-utils）のslugifyの移植。
+// 旧サイトの記事URL（/:year/:month/:day/:slug/）を維持するため、同じ規則でスラグを生成する
+const rControl = /[\u0000-\u001f]/g
+const rSpecial = /[\s~`!@#$%^&*()\-_+=[\]{}|\\;:"'\u201c\u201d\u2018\u2019\u2013\u2014<>,.?/]+/g
+const rCombining = /[\u0300-\u036f]/g
+function slugify(str) {
+  return str
+    .normalize('NFKD')
+    .replace(rCombining, '')
+    .replace(rControl, '')
+    .replace(rSpecial, '-')
+    .replace(/-{2,}/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .replace(/^(\d)/, '_$1')
+    .toLowerCase()
+}
+
+// 旧VuePressブログプラグインのpermalink（/:year/:month/:day/:slug/）を再現する。
+// 旧サイトはUTC環境でビルドされており、URLの日付は「frontmatterのdateをUTCに変換した日付」になる。
+// ビルド環境のタイムゾーンに依存しないよう、オフセットを自前で解釈してUTCの日付を求める。
+// タイムゾーン表記がない場合はYAML 1.1の規定どおりUTCとして扱う（旧ビルドのjs-yamlと同じ）
+function postPermalink(fileName, content) {
+  const frontmatterMatch = content.match(/^---\r?\n([\s\S]*?)\r?\n---/)
+  if (!frontmatterMatch) return null
+  const dateMatch = frontmatterMatch[1].match(
+    /^date:\s*(\d{4})-(\d{1,2})-(\d{1,2})(?:[T ](\d{1,2}):(\d{2})(?::(\d{2}))?)?\s*(?:([+-]\d{2}):?(\d{2}))?/m
+  )
+  if (!dateMatch) return null
+  const [, year, month, day, hour = '0', minute = '0', second = '0', offsetHour, offsetMinute] = dateMatch
+  let time = Date.UTC(+year, +month - 1, +day, +hour, +minute, +second)
+  if (offsetHour !== undefined) {
+    const sign = offsetHour.startsWith('-') ? -1 : 1
+    time -= sign * (Math.abs(+offsetHour) * 60 + +offsetMinute) * 60000
+  }
+  const utc = new Date(time)
+  const pad = (n) => String(n).padStart(2, '0')
+  // 旧VuePressはJekyll形式の日付プレフィックス（YYYY-MM-DD-）をスラグから除去していた
+  const name = fileName.replace(/^\d{4}-\d{1,2}(?:-\d{1,2})?-/, '')
+  return `/${utc.getUTCFullYear()}/${pad(utc.getUTCMonth() + 1)}/${pad(utc.getUTCDate())}/${slugify(name)}/`
+}
+
 async function getAllPosts() {
   const postsDir = resolve(__dirname, '../_posts')
   const posts = []
@@ -24,13 +65,13 @@ async function getAllPosts() {
         traverseDir(fullPath, newBasePath)
       } else if (entry.endsWith('.md')) {
         const content = readFileSync(fullPath, 'utf-8')
-        const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/)
+        const frontmatterMatch = content.match(/^---\r?\n([\s\S]*?)\r?\n---/)
         
         if (frontmatterMatch) {
           const frontmatterStr = frontmatterMatch[1]
           const frontmatter = {}
           
-          frontmatterStr.split('\n').forEach(line => {
+          frontmatterStr.split(/\r?\n/).forEach(line => {
             const match = line.match(/^(\w+):\s*(.+)$/)
             if (match) {
               const key = match[1]
@@ -45,12 +86,9 @@ async function getAllPosts() {
           })
           
           const fileName = entry.replace('.md', '')
-          // VitePressでは、ファイルパスから直接URLを生成
-          // basePathは'2026/01'のような形式なので、スラッシュで結合
-          // rewritesで_posts/を削除しているので、URLも/_posts/なしで生成
-          const urlPath = basePath 
-            ? `/${basePath}/${fileName}.html`
-            : `/${fileName}.html`
+          // 旧サイトと同じpermalink形式のURLを使う（rewritesと同じ規則）
+          const urlPath = postPermalink(fileName, content)
+          if (!urlPath) continue
           posts.push({
             url: urlPath,
             title: frontmatter.title || fileName,
@@ -183,10 +221,17 @@ export default defineConfig({
     }
   },
 
-  // _posts/ プレフィックスを削除するための rewrites
-  rewrites: {
-    '_posts/old/:year/:month/:slug': 'old/:year/:month/:slug',
-    '_posts/:year/:month/:slug': ':year/:month/:slug'
+  // _posts/配下の記事を旧サイトと同じpermalink（/:year/:month/:day/:slug/）に配置する
+  rewrites(id) {
+    // ページネーションも旧サイトと同じ /page/N/ 形式にする
+    const pageMatch = id.match(/^page\/((\[num\])|\d+)\.md$/)
+    if (pageMatch) return `page/${pageMatch[1]}/index.md`
+    const match = id.match(/^_posts\/(?:old\/)?\d{4}\/\d{2}\/(.+)\.md$/)
+    if (!match) return id
+    const content = readFileSync(resolve(__dirname, '..', id), 'utf-8')
+    const permalink = postPermalink(match[1], content)
+    if (!permalink) return id
+    return `${permalink.slice(1)}index.md`
   },
 
   themeConfig: {
