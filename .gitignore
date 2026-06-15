@@ -4,3 +4,5 @@ dist/
 docs/.vitepress/cache/
 docs/.vitepress/dist/
 docs/public/posts-data.json
+.vercel
+.env*
