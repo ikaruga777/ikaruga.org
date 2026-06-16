@@ -8,12 +8,6 @@ importers:
 
   .:
     devDependencies:
-      '@fortawesome/fontawesome-free':
-        specifier: ^6.1
-        version: 6.7.2
-      markdown-it-fontawesome:
-        specifier: ^0.3
-        version: 0.3.0
       timeago.js:
         specifier: ^4.0.2
         version: 4.0.2
@@ -279,10 +273,6 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
-
-  '@fortawesome/fontawesome-free@6.7.2':
-    resolution: {integrity: sha512-JUOtgFW6k9u4Y+xeIaEiLr3+cjoUPiAuLXoyKOJSia6Duzb7pq+A76P9ZdPDoAoxHdHzq6gE9/jKBGXlZT8FbA==}
-    engines: {node: '>=6'}
 
   '@iconify-json/simple-icons@1.2.68':
     resolution: {integrity: sha512-bQPl1zuZlX6AnofreA1v7J+hoPncrFMppqGboe/SH54jZO37meiBUGBqNOxEpc0HKfZGxJaVVJwZd4gdMYu3hw==}
@@ -654,12 +644,6 @@ packages:
 
   mark.js@8.11.1:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
-
-  markdown-it-fontawesome@0.3.0:
-    resolution: {integrity: sha512-8juNbWWz+AjFfH8qWoZsRQBUI/BspD5dcP1R4vqoUE+Zv0XJJ59zyYfi2efESLdPvHyAp8/mi7nrY2FH1c5tIw==}
-
-  markdown-it-regexp@0.4.0:
-    resolution: {integrity: sha512-0XQmr46K/rMKnI93Y3CLXsHj4jIioRETTAiVnJnjrZCEkGaDOmUxTbZj/aZ17G5NlRcVpWBYjqpwSlQ9lj+Kxw==}
 
   mdast-util-to-hast@13.2.1:
     resolution: {integrity: sha512-cctsq2wp5vTsLIcaymblUriiTcZd0CwWtCbLvrOzYCDZoWyMNV8sZ7krj09FSnsiJi3WVsHLM4k6Dq/yaPyCXA==}
@@ -1054,8 +1038,6 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
-  '@fortawesome/fontawesome-free@6.7.2': {}
-
   '@iconify-json/simple-icons@1.2.68':
     dependencies:
       '@iconify/types': 2.0.0
@@ -1415,12 +1397,6 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.5
 
   mark.js@8.11.1: {}
-
-  markdown-it-fontawesome@0.3.0:
-    dependencies:
-      markdown-it-regexp: 0.4.0
-
-  markdown-it-regexp@0.4.0: {}
 
   mdast-util-to-hast@13.2.1:
     dependencies:
