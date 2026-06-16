@@ -6,3 +6,5 @@ docs/.vitepress/dist/
 docs/public/posts-data.json
 .vercel
 .env*
+playwright-report/
+test-results/
