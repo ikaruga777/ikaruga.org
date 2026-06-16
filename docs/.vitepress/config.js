@@ -1,40 +1,11 @@
 import { defineConfig } from 'vitepress'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
-import { readFileSync, writeFileSync, mkdirSync } from 'fs'
+import { readFileSync, writeFileSync } from 'fs'
 import { getAllPosts, postPermalink } from './utils/getAllPosts.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
-
-async function generatePostsData() {
-  const posts = await getAllPosts()
-
-  const postsData = {
-    posts: posts.map(post => ({
-      url: post.url,
-      title: post.title,
-      frontmatter: post.frontmatter,
-      lastUpdated: post.lastUpdated ? post.lastUpdated.toISOString() : null,
-      relativePath: post.relativePath
-    }))
-  }
-
-  // VitePressでは、publicディレクトリはdocs/publicに配置
-  const publicDir = resolve(__dirname, '../public')
-  try {
-    mkdirSync(publicDir, { recursive: true })
-    console.log('Created public directory:', publicDir)
-  } catch (e) {
-    // ディレクトリが既に存在する場合は無視
-    console.log('Public directory already exists:', publicDir)
-  }
-
-  const outputPath = resolve(publicDir, 'posts-data.json')
-  console.log('Writing posts-data.json to:', outputPath)
-  writeFileSync(outputPath, JSON.stringify(postsData, null, 2))
-  console.log('Successfully wrote posts-data.json, posts count:', postsData.posts.length)
-}
 
 const DOMAIN = 'https://ikaruga.org'
 
@@ -157,20 +128,7 @@ export default defineConfig({
     return head
   },
 
-  async transformPageData(pageData) {
-    // 開発サーバーでもposts-data.jsonを生成
-    // 最初のページ読み込み時に生成
-    try {
-      await generatePostsData()
-    } catch (e) {
-      console.error('Failed to generate posts-data.json in transformPageData:', e)
-    }
-    return pageData
-  },
-
   async buildEnd(siteConfig) {
-    // ビルド時にposts-data.jsonを生成
-    await generatePostsData()
     await generateRssFeed(siteConfig.outDir)
   }
 })
