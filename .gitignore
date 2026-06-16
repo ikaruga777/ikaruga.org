@@ -1,3 +1,8 @@
 node_modules/
 dist/
 .env
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs/public/posts-data.json
+.vercel
+.env*

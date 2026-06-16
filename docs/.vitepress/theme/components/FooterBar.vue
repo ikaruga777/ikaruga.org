@@ -9,10 +9,10 @@
     <br>
     Powered by
     <a
-      href="https://vuepress.vuejs.org/"
+      href="https://vitepress.dev/"
       rel="noopener"
       target="_blank"
-    >VuePress</a>
+    >VitePress</a>
     | Theme
     <a
       href="https://github.com/viko16/vuepress-theme-simple"
@@ -22,15 +22,11 @@
   </footer>
 </template>
 
-<script>
-export default {
-  computed: {
-    thisYear() {
-      return new Date().getFullYear();
-    },
-    author() {
-      return this.$themeConfig.author || '';
-    },
-  }
-}
+<script setup>
+import { computed } from 'vue'
+import { useData } from 'vitepress'
+
+const { theme } = useData()
+const thisYear = computed(() => new Date().getFullYear())
+const author = computed(() => theme.value.author || '')
 </script>
