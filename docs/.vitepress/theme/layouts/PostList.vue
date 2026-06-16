@@ -59,13 +59,16 @@ const filteredList = computed(() => allPosts.slice(start.value, end.value))
 
 const hasNext = computed(() => currentPage.value < totalPages.value)
 const hasPrev = computed(() => currentPage.value > 1)
+// 出力パス（/page/N/）と一致する末尾スラッシュ付きのリンクにする。
+// スラッシュなし（/page/N）だとVitePressのrouterが一旦 .html を付与してpushStateし、
+// 直後に実体パス（/page/N/）へreplaceStateするため、無駄なリダイレクトが発生する。
 const nextLink = computed(() => {
-  if (currentPage.value === 1) return '/page/2'
-  return `/page/${currentPage.value + 1}`
+  if (currentPage.value === 1) return '/page/2/'
+  return `/page/${currentPage.value + 1}/`
 })
 const prevLink = computed(() => {
   if (currentPage.value === 2) return '/'
-  return `/page/${currentPage.value - 1}`
+  return `/page/${currentPage.value - 1}/`
 })
 const hasPagination = computed(() => totalPages.value > 1)
 
