@@ -8,14 +8,14 @@ test.describe('記事の前後ナビゲーション', () => {
     await page.waitForURL(/\/\d{4}\/\d{2}\/\d{2}\//)
   })
 
-  test('次の記事リンクが表示される（最新記事には前の記事が存在する）', async ({ page }) => {
+  test('次の記事リンクが表示される（最新記事より古い記事が存在するため）', async ({ page }) => {
     const nextNav = page.locator('.post-nav-next')
     await expect(nextNav).toBeVisible()
     await expect(nextNav.locator('.post-nav-label')).toHaveText('次の記事')
     await expect(nextNav.locator('.post-nav-title')).not.toBeEmpty()
   })
 
-  test('最新記事には「前の記事」リンクが表示されない', async ({ page }) => {
+  test('最新記事には「前の記事」リンクが表示されない（より新しい記事がないため）', async ({ page }) => {
     await expect(page.locator('.post-nav-prev')).not.toBeVisible()
   })
 

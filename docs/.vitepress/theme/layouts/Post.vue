@@ -51,13 +51,13 @@ const currentIndex = computed(() => {
   return allPosts.findIndex(p => p.url === url)
 })
 
-// allPosts は日付降順。index+1 が前の記事（古い）、index-1 が次の記事（新しい）
+// allPosts は日付降順。index-1 が前の記事（新しい）、index+1 が次の記事（古い）
 const prevPost = computed(() => {
   const i = currentIndex.value
-  return i >= 0 && i < allPosts.length - 1 ? allPosts[i + 1] : null
+  return i > 0 ? allPosts[i - 1] : null
 })
 const nextPost = computed(() => {
   const i = currentIndex.value
-  return i > 0 ? allPosts[i - 1] : null
+  return i >= 0 && i < allPosts.length - 1 ? allPosts[i + 1] : null
 })
 </script>
