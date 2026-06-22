@@ -142,6 +142,10 @@ img, video, canvas, iframe {
   margin-bottom: 50px;
 }
 
+.list-item:last-child {
+  margin-bottom: 0;
+}
+
 .item-title {
   display: inline-block;
   margin-bottom: 10px;
