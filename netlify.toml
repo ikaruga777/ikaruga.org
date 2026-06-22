@@ -1,0 +1,5 @@
+[[headers]]
+  for = "/*"
+    [headers.values]
+      Content-Security-Policy-Report-Only = "default-src 'self'; font-src fonts.gstatic.com; frame-src *.twitter.com *.instagram.com *.youtube.com *.alu.jp; connect-src api.github.com; img-src *.google-analytics.com; script-src-elem: *.google-analytics.com; style-src-elem: fonts.googleapis.com   report-uri https://ikarugaorg.report-uri.com/r/d/csp/reportOnly"
+
