@@ -9,6 +9,13 @@ const __dirname = dirname(__filename)
 
 const DOMAIN = 'https://ikaruga.org'
 
+// ビルド中に getAllPosts() を複数箇所から呼ぶため、Promise をキャッシュして一度だけ実行する
+let _postsPromise = null
+function getCachedPosts() {
+  if (!_postsPromise) _postsPromise = getAllPosts()
+  return _postsPromise
+}
+
 function escapeXml(str) {
   return String(str)
     .replace(/&/g, '&amp;')
@@ -18,7 +25,7 @@ function escapeXml(str) {
 }
 
 async function generateRssFeed(outDir) {
-  const posts = (await getAllPosts()).slice(0, 20)
+  const posts = (await getCachedPosts()).slice(0, 20)
   const items = posts.map(post => {
     const url = `${DOMAIN}${post.url}`
     const pubDate = post.lastUpdated ? new Date(post.lastUpdated).toUTCString() : ''
@@ -108,12 +115,17 @@ export default defineConfig({
     }
   },
 
-  transformHead({ pageData }) {
+  async transformHead({ pageData }) {
     // relativePathはrewrites適用後のパス（_posts/プレフィックスなし）になる
     const isPost = /^(old\/)?\d{4}\/\d{2}\//.test(pageData.relativePath) || pageData.frontmatter?.layout === 'post'
     const url = DOMAIN + pageUrl(pageData.relativePath)
     const title = pageData.title || 'ikaruga.org'
-    const description = pageData.frontmatter?.description || 'だぶんをつらねます'
+    let description = 'だぶんをつらねます'
+    if (isPost) {
+      const posts = await getCachedPosts()
+      const post = posts.find(p => p.url === pageUrl(pageData.relativePath))
+      description = post?.description || 'だぶんをつらねます'
+    }
     const head = [
       ['meta', { property: 'og:title', content: title }],
       ['meta', { property: 'og:description', content: description }],
