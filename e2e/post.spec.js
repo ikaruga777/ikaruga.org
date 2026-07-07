@@ -26,7 +26,7 @@ test.describe('記事ページ', () => {
   test('記事ページに TimeAgo コンポーネントが datetime 属性付きで表示される', async ({ page }) => {
     await page.locator('.list .item-title').first().click()
 
-    const timeEl = page.locator('.post-date time')
+    const timeEl = page.locator('time.post-date')
     await expect(timeEl).toBeVisible()
     await expect(timeEl).toHaveAttribute('datetime', /.+/)
     await expect(timeEl).toHaveAttribute('pubdate', 'pubdate')
