@@ -46,6 +46,20 @@ export function postPermalink(fileName, content) {
   return `/${utc.getUTCFullYear()}/${pad(utc.getUTCMonth() + 1)}/${pad(utc.getUTCDate())}/${slugify(name)}/`
 }
 
+function extractDescription(content, maxLength = 120) {
+  const body = content.replace(/^---[\s\S]*?---\r?\n/, '')
+  const plain = body
+    .replace(/```[\s\S]*?```/g, '')
+    .replace(/^#+\s+.*/gm, '')
+    .replace(/!\[.*?\]\(.*?\)/g, '')
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/[*_~`]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+  return plain.length > maxLength ? plain.slice(0, maxLength) + '…' : plain
+}
+
 export async function getAllPosts() {
   const postsDir = resolve(__dirname, '../../_posts')
   const posts = []
@@ -90,6 +104,7 @@ export async function getAllPosts() {
           posts.push({
             url: urlPath,
             title: frontmatter.title || fileName,
+            description: frontmatter.description || extractDescription(content),
             frontmatter,
             lastUpdated: frontmatter.date || new Date(),
             relativePath: basePath ? `_posts/${basePath}/${entry}` : `_posts/${entry}`
