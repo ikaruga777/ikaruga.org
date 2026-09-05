@@ -5,7 +5,8 @@
     "@playwright/test": "^1.61.0",
     "timeago.js": "^4.0.2",
     "vitepress": "^1.6.0",
-    "vue": "^3.5.0"
+    "vue": "^3.5.0",
+    "wrangler": "^4.129.0"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -13,6 +14,8 @@
     "docs:preview": "vitepress preview docs",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
-    "tweet-embed": "node scripts/tweet-embed.js"
+    "tweet-embed": "node scripts/tweet-embed.js",
+    "deploy": "pnpm run docs:build && wrangler deploy",
+    "preview": "pnpm run docs:build && wrangler dev"
   }
 }
