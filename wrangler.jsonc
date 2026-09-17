@@ -1,8 +1,11 @@
 {
-  "name": "ikaruga-org",
-  "compatibility_date": "2026-09-01",
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ikaruga-org-vitepress",
+  "compatibility_date": "2026-09-03",
+  "observability": {
+    "enabled": true
+  },
   "assets": {
-    "directory": "./dist",
-    "not_found_handling": "404-page"
+    "directory": "./dist"
   }
 }
