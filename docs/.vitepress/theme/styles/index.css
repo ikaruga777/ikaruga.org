@@ -391,6 +391,10 @@ img, video, canvas, iframe {
 }
 
 @media (max-width: 767px) {
+  :root {
+    --font-size-base: 14px;
+  }
+
   .post-title {
     font-size: var(--font-size-2xl);
     line-height: var(--line-height-2xl);
