@@ -1,15 +1,16 @@
 import { test, expect } from '@playwright/test'
 
-// 基本サイズ16pxに 8/n を掛けた調和数列スケール（n = 3..10）
+// 基本サイズに 8/n を掛けた調和数列スケール（n = 3..10）。基本サイズはPCで16px、スマホ幅で15px
 const BASE = 16
-const HARMONIC_SCALE = [3, 4, 5, 6, 7, 8, 9, 10].map(n => (BASE * 8) / n)
+const MOBILE_BASE = 14
+const harmonicScale = (base) => [3, 4, 5, 6, 7, 8, 9, 10].map(n => (base * 8) / n)
 
 const computed = (locator, prop) =>
   locator.evaluate((el, p) => parseFloat(getComputedStyle(el)[p]), prop)
 
-const expectOnHarmonicScale = (fontSize) => {
-  const hit = HARMONIC_SCALE.some(size => Math.abs(size - fontSize) < 0.05)
-  expect(hit, `font-size ${fontSize}px は調和数列スケール上にない`).toBe(true)
+const expectOnHarmonicScale = (fontSize, base = BASE) => {
+  const hit = harmonicScale(base).some(size => Math.abs(size - fontSize) < 0.05)
+  expect(hit, `font-size ${fontSize}px は基本${base}pxの調和数列スケール上にない`).toBe(true)
 }
 
 const expectOn4pxGrid = (lineHeight) => {
@@ -65,5 +66,32 @@ test.describe('タイポグラフィ', () => {
       const value = await computed(el, prop)
       expect(value % lineHeight, `${prop} ${value}px は行送り${lineHeight}pxの整数倍ではない`).toBeCloseTo(0, 1)
     }
+  })
+})
+
+test.describe('スマホ幅のタイポグラフィ', () => {
+  test.use({ viewport: { width: 390, height: 844 } })
+
+  test('本文は14pxに下がり、見出しも同じ基本サイズの調和数列スケールに乗る', async ({ page }) => {
+    await gotoLatestPost(page)
+    expect(await computed(page.locator('body'), 'fontSize')).toBe(MOBILE_BASE)
+    for (const selector of ['.post-title', '.post-date', '.post-view h2', '.post-view p']) {
+      const el = page.locator(selector).first()
+      expectOnHarmonicScale(await computed(el, 'fontSize'), MOBILE_BASE)
+      expectOn4pxGrid(await computed(el, 'lineHeight'))
+    }
+  })
+})
+
+test.describe('横幅', () => {
+  test('長いURLを含む記事でもページが横にはみ出さない', async ({ page }) => {
+    await page.setViewportSize({ width: 1280, height: 900 })
+    await page.goto('/2025/12/31/annual-report-2025/')
+    await expect(page.locator('.post-view p').first()).toBeVisible()
+    const { scrollWidth, clientWidth } = await page.evaluate(() => ({
+      scrollWidth: document.documentElement.scrollWidth,
+      clientWidth: document.documentElement.clientWidth,
+    }))
+    expect(scrollWidth).toBeLessThanOrEqual(clientWidth)
   })
 })

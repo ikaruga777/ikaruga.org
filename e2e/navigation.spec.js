@@ -1,4 +1,9 @@
 import { test, expect } from '@playwright/test'
+import { getAllPosts } from '../docs/.vitepress/utils/getAllPosts.js'
+
+// 最終ページ番号は記事数で変わるため、ビルドと同じ記事取得ロジックから算出する
+const POSTS_PER_PAGE = 6
+const lastPageUrl = async () => `/page/${Math.ceil((await getAllPosts()).length / POSTS_PER_PAGE)}/`
 
 test.describe('キーボードナビゲーション', () => {
   test('ArrowRight キーでページ 2 に遷移する', async ({ page }) => {
@@ -29,7 +34,7 @@ test.describe('キーボードナビゲーション', () => {
 
   test('最終ページで ArrowRight キーを押しても遷移しない', async ({ page }) => {
     // 最後のページ: next リンクが存在しないことを先に確認する
-    await page.goto('/page/33/')
+    await page.goto(await lastPageUrl())
     await expect(page.locator('.pagination a', { hasText: 'next' })).not.toBeVisible()
     const currentUrl = page.url()
 
