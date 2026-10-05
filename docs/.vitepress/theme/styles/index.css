@@ -291,14 +291,16 @@ img, video, canvas, iframe {
 
 .post-view a[href]:not(.header-anchor):after {
   content: attr(href);
+  /* visibility: hidden だと非表示でも配置に含まれ、長いURLの分だけページが横に伸びる */
+  display: none;
   position: absolute;
   left: 50%;
   top: 0;
-  visibility: hidden;
   pointer-events: none;
-  transform: translate(-50%, -95%);
-  transition: all 0.1s ease-in-out;
-  overflow: visible;
+  transform: translate(-50%, calc(-100% - 4px));
+  max-width: var(--measure);
+  overflow: hidden;
+  text-overflow: ellipsis;
   padding: 0 var(--spacing-1);
   background: #454f54;
   font-size: var(--font-size-xs);
@@ -310,8 +312,7 @@ img, video, canvas, iframe {
 }
 
 .post-view a[href]:not(.header-anchor):hover:after {
-  visibility: visible;
-  transform: translate(-50%, calc(-100% - 4px));
+  display: block;
 }
 
 .post-view code {
