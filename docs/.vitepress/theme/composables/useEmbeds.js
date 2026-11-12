@@ -15,6 +15,11 @@ const RESCAN_SCRIPTS = [
     src: 'https://www.instagram.com/embed.js',
     selector: 'blockquote.instagram-media',
     rescan: () => window.instgrm?.Embeds?.process()
+  },
+  {
+    src: 'https://embed.bsky.app/static/embed.js',
+    selector: 'blockquote.bluesky-embed',
+    rescan: () => window.bluesky?.scan()
   }
 ]
 
